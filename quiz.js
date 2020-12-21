@@ -385,7 +385,7 @@ export const quiz = [
                     'Akármennyi'],
         results:    'A',
         result:     1,
-        boolres:    [true, true, true, false],
+        boolres:    [true, false, false, false],
         answer:     'Míg named export-ból akármennyi lehet, defaultból csak egy darab.<br>Akkor használjuk ha az adott file csak egy class-t, object-et stb. tartalmaz.'
     },
     {
