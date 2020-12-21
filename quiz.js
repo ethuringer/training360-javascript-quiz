@@ -418,7 +418,7 @@ export const quiz = [
     {
         header1:    '3. JavaScript haladó - Modulok és kivételek',
         header2:    'A Regexp objektum 2 / 3',
-        question:   'Adott az alábbi reguláris kifejezés: ([A-Z])\w+/g<br>Hány találatunk lenne illeszkedés vizsgálatakor az alábbi mondat esetében?:<br>“RegExr was created By trining360.com.”<br>Válaszd ki az EGYETLEN megfelelő választ!',
+        question:   'Adott az alábbi reguláris kifejezés: ([A-Z])\\w+/g<br>Hány találatunk lenne illeszkedés vizsgálatakor az alábbi mondat esetében?:<br>“RegExr was created By trining360.com.”<br>Válaszd ki az EGYETLEN megfelelő választ!',
         options:    ['1',
                     '2',
                     '3',
