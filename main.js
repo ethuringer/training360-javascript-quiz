@@ -63,7 +63,7 @@ const getNext = () => {
 // A helyes válasz megjelenítése
 const showAnswer = (answers) => {
     if (parseInt(answers) === parseInt(quiz[questionCounter].result)) {
-        answer.innerHTML = `<p class="ok">Helyes válasz.</p>${quiz[questionCounter].answer}`;
+        answer.innerHTML = `<p class="ok">Helyes válasz</p>${quiz[questionCounter].answer}`;
         answer.classList.add('filter-ok');
         points += 1;
     } else {
